@@ -1,0 +1,20 @@
+{
+  "name": "typescript-mixins",
+  "version": "1.0.0",
+  "description": "A sample to demonstrate how mixins can be implemented in Typescript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tsc && jasmine"
+  },
+  "keywords": [
+    "typescript",
+    "tutorial",
+    "mixins"
+  ],
+  "author": "Nicolas Chevolot",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {}
+}
