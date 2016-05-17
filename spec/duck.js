@@ -34,6 +34,13 @@ describe("Duck", function() {
 		expect(duck.hasTalked).toBe(true);
 		expect(sound).toBe("coin coin");
 	});
+
+	it("can quack", function() {
+		var duck = new Duck();
+		expect(duck.hasQuacked).toBe(false);
+		duck.quack();
+		expect(duck.hasQuacked).toBe(true);
+	});
 });
 
 
